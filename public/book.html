@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book your reset — Nosara Reset Institute</title>
+<meta name="description" content="Choose your program, dates and room. Online booking for Nosara Reset Institute.">
+<meta property="og:title" content="Book your reset — Nosara Reset Institute"><meta property="og:description" content="Choose your program, dates and room. Online booking for Nosara Reset Institute."><meta property="og:image" content="img/aerial-pool.webp">
+<link rel="icon" href="logos/nosara-submark-ciruela.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+
+<link rel="stylesheet" href="site.css">
+</head>
+<body class="is-page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top" id="top">
+  <a class="logo" href="index.html" aria-label="Nosara Reset Institute, home">
+    <img class="lg-dark" src="logos/nosara-horizontal-arena.svg" alt="" width="190" height="40">
+    <img class="lg-light" src="logos/nosara-horizontal-ciruela.svg" alt="" width="190" height="40">
+  </a>
+  <nav class="nav" aria-label="Main"><a href="method.html">The Method</a><a href="programs.html">Programs</a><a href="stay.html">The Stay</a><a href="founders.html">Founders</a><a href="contact.html">Contact</a></nav>
+  <a class="btn btn-sm" href="book.html">Book your reset</a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span class="sr">Menu</span></button>
+</header>
+<div class="mnav" id="mnav" hidden>
+  <nav aria-label="Mobile"><a href="method.html">The Method</a><a href="programs.html">Programs</a><a href="stay.html">The Stay</a><a href="founders.html">Founders</a><a href="contact.html">Contact</a></nav>
+  <a class="btn" href="book.html">Book your reset</a>
+</div>
+<main id="main">
+<section class="page-hero bk-hero" data-header="light"><div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="book.html" aria-current="page">Book</a></li></ol></nav>
+  <div class="ph-grid"><div><p class="eyebrow">Book online</p><h1 class="h-xl">Choose your dates.</h1></div>
+  <div class="ph-side"><p class="body-l">Four short steps. Nothing is charged today: we confirm availability and send a secure link for the 30% deposit.</p></div></div>
+</div></section>
+<section class="block-tight bk" data-header="light"><div class="wrap">
+  <ol class="bk-steps" aria-label="Booking steps"><li class="on"><span>01</span>Program</li><li><span>02</span>Dates</li><li><span>03</span>Room</li><li><span>04</span>Your details</li></ol>
+  <div class="bk-grid">
+    <div class="bk-main">
+      <fieldset class="bk-step" data-step="1"><legend class="h-m">Which program?</legend>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="program" value="signature-reset"><span class="o-in"><span class="h-s">Signature Reset</span><span class="small">7 days · from $9,500</span></span></label>
+          <label class="opt"><input type="radio" name="program" value="executive-pause"><span class="o-in"><span class="h-s">Executive Pause</span><span class="small">4 days · from $5,800</span></span></label>
+          <label class="opt"><input type="radio" name="program" value="integration"><span class="o-in"><span class="h-s">90-Day Integration</span><span class="small">Remote · $2,400</span></span></label>
+        </div>
+        <p class="small muted">Planning for a team? <a href="contact.html#form">Ask about a corporate retreat</a>.</p>
+      </fieldset>
+      <fieldset class="bk-step" data-step="2" hidden><legend class="h-m">Arrival date</legend>
+        <p class="small muted cal-help">Programs start on fixed dates. Available dates are marked; crossed-out dates are full.</p>
+        <div class="cal"><div class="cal-head"><button type="button" class="arw cal-prev" aria-label="Previous month"><span style="transform:scaleX(-1)"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button><p class="cal-title h-s" aria-live="polite"></p><button type="button" class="arw cal-next" aria-label="Next month"><span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button></div>
+        <div class="cal-grid" role="grid"></div></div>
+        <div class="cal-legend small"><span class="lg-av"></span>Available<span class="lg-full"></span>Full</div>
+      </fieldset>
+      <fieldset class="bk-step" data-step="3" hidden><legend class="h-m">Room and guests</legend>
+        <div class="opts rooms-opts"></div>
+        <label class="f2 guests-f"><span>Guests</span><select name="guests"><option value="1">1 guest</option><option value="2">2 guests, sharing a room</option></select></label>
+      </fieldset>
+      <fieldset class="bk-step" data-step="4" hidden><legend class="h-m">Your details</legend>
+        <div class="bk-form">
+          <label class="f2"><span>Full name</span><input name="name" autocomplete="name" required><em class="err">Tell us your name.</em></label>
+          <label class="f2"><span>Email</span><input type="email" name="email" autocomplete="email" required><em class="err">Enter a valid email, like name@company.com.</em></label>
+          <label class="f2"><span>Phone <i>(optional)</i></span><input type="tel" name="phone" autocomplete="tel"></label>
+          <label class="f2"><span>Anything we should know? <i>(optional)</i></span><textarea name="note" rows="3"></textarea></label>
+          <label class="check2"><input type="checkbox" name="ok" required><span>I agree to the <a href="terms.html">booking terms</a> and <a href="privacy.html">privacy policy</a>.</span><em class="err">Please accept to continue.</em></label>
+        </div>
+      </fieldset>
+      <p class="bk-error" role="alert" hidden></p>
+      <div class="bk-nav"><button type="button" class="link bk-back" hidden><span style="display:inline-flex;transform:scaleX(-1)"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Back</button><button type="button" class="btn bk-next">Continue</button></div>
+    </div>
+    <aside class="bk-sum" aria-label="Your booking">
+      <p class="eyebrow">Your booking</p>
+      <dl><div><dt>Program</dt><dd data-s="program">—</dd></div><div><dt>Dates</dt><dd data-s="dates">—</dd></div><div><dt>Room</dt><dd data-s="room">—</dd></div><div><dt>Guests</dt><dd data-s="guests">1</dd></div></dl>
+      <div class="sum-total"><span>Total</span><span data-s="total">—</span></div>
+      <p class="small muted">Deposit today: $0. A 30% deposit is requested after we confirm.</p>
+    </aside>
+  </div>
+  <div class="bk-done" hidden tabindex="-1">
+    <p class="eyebrow">Request received</p><h2 class="h-l">Thank you. Your dates are on hold.</h2>
+    <p class="body-l">We hold your room for 48 hours while we confirm. You will receive an email with the deposit link and a short health questionnaire.</p>
+    <dl class="facts facts-4 done-facts"></dl>
+    <div class="ctas"><a class="btn ics" download="nosara-reset.ics" href="#">Add to calendar</a><a class="link" href="index.html">Back to home <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+    <p class="small muted">Prototype: no booking has been made.</p>
+  </div>
+</div></section>
+<script type="application/json" id="avail-data">{"programs": {"signature-reset": {"name": "Signature Reset", "nights": 7, "base": 9500, "guest2": 6500, "rooms": {"ocean": 2000, "jungle": 0, "tree": 3500}}, "executive-pause": {"name": "Executive Pause", "nights": 4, "base": 5800, "guest2": 3900, "rooms": {"ocean": 1100, "jungle": 0, "tree": 1900}}, "integration": {"name": "90-Day Integration", "nights": 0, "base": 2400, "guest2": 0, "rooms": {}}}, "dates": {"signature-reset": {"2026-12-06": {"ocean": 2, "jungle": 1, "tree": 1}, "2026-12-20": {"ocean": 0, "jungle": 0, "tree": 1}, "2027-01-03": {"ocean": 0, "jungle": 0, "tree": 0}, "2027-01-17": {"ocean": 0, "jungle": 0, "tree": 0}, "2027-01-31": {"ocean": 0, "jungle": 0, "tree": 0}, "2027-02-14": {"ocean": 1, "jungle": 0, "tree": 2}, "2027-02-28": {"ocean": 0, "jungle": 1, "tree": 0}, "2027-03-14": {"ocean": 0, "jungle": 0, "tree": 0}, "2027-03-28": {"ocean": 0, "jungle": 2, "tree": 2}, "2027-04-11": {"ocean": 1, "jungle": 0, "tree": 2}, "2027-04-25": {"ocean": 1, "jungle": 2, "tree": 0}}, "executive-pause": {"2026-12-07": {"ocean": 0, "jungle": 0, "tree": 2}, "2026-12-21": {"ocean": 6, "jungle": 4, "tree": 1}, "2027-01-04": {"ocean": 3, "jungle": 2, "tree": 1}, "2027-01-18": {"ocean": 1, "jungle": 1, "tree": 0}, "2027-02-01": {"ocean": 4, "jungle": 4, "tree": 1}, "2027-02-15": {"ocean": 2, "jungle": 0, "tree": 0}, "2027-03-01": {"ocean": 1, "jungle": 2, "tree": 0}, "2027-03-15": {"ocean": 0, "jungle": 0, "tree": 0}, "2027-03-29": {"ocean": 4, "jungle": 2, "tree": 1}, "2027-04-12": {"ocean": 4, "jungle": 4, "tree": 2}, "2027-04-26": {"ocean": 0, "jungle": 0, "tree": 1}}, "integration": {"2026-12-07": {"remote": 1}, "2026-12-14": {"remote": 1}, "2026-12-21": {"remote": 1}, "2026-12-28": {"remote": 1}, "2027-01-04": {"remote": 1}, "2027-01-11": {"remote": 1}, "2027-01-18": {"remote": 1}, "2027-01-25": {"remote": 1}, "2027-02-01": {"remote": 1}, "2027-02-08": {"remote": 1}, "2027-02-15": {"remote": 1}, "2027-02-22": {"remote": 1}, "2027-03-01": {"remote": 1}, "2027-03-08": {"remote": 1}, "2027-03-15": {"remote": 1}, "2027-03-22": {"remote": 1}, "2027-03-29": {"remote": 1}, "2027-04-05": {"remote": 1}, "2027-04-12": {"remote": 1}, "2027-04-19": {"remote": 1}, "2027-04-26": {"remote": 1}}}}</script>
+</main>
+<footer class="foot" data-header="light">
+  <div class="wrap">
+    <div class="f-top">
+      <img src="logos/nosara-horizontal-ciruela.svg" alt="Nosara Reset Institute" width="220" height="46">
+      <nav aria-label="Footer"><a href="method.html">The Method</a><a href="programs.html">Programs</a><a href="stay.html">The Stay</a><a href="founders.html">Founders</a><a href="contact.html">Contact</a></nav>
+      <address>Playa Guiones, Nosara<br>Guanacaste, Costa Rica<br><a href="mailto:hello@nosarareset.com">hello@nosarareset.com</a><br><a href="https://wa.me/50600000000">WhatsApp +506 0000 0000</a></address>
+    </div>
+    <div class="f-bot">
+      <p>© 2026 Nosara Reset Institute · Medical services are provided by licensed professionals in Costa Rica.</p>
+      <nav aria-label="Legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="privacy.html#cookies">Cookies</a><a href="https://instagram.com">Instagram</a><a href="https://linkedin.com">LinkedIn</a></nav>
+      <p>Brand and web design <a href="https://juligomex.com">juligomex.com</a></p>
+    </div>
+  </div>
+</footer>
+<button class="avail-btn pre" aria-haspopup="dialog" aria-controls="avail">Availability request</button>
+<div class="avail" id="avail" role="dialog" aria-modal="true" aria-labelledby="avail-h" hidden>
+  <button class="avail-x" aria-label="Close availability request"><span></span><span></span></button>
+  <div class="avail-in">
+    <div class="avail-head">
+      <p class="eyebrow">Availability request</p>
+      <h2 class="h-l" id="avail-h">Tell us when you’d like to come.</h2>
+      <p class="body">We reply within one working day with open dates and rooms. Nothing is charged until you confirm. Prefer to choose dates yourself? <a href="book.html">Book online</a>.</p>
+    </div>
+    <form class="avail-form" novalidate>
+      <label class="f full"><span>Program</span>
+        <select name="program" required><option value="">Choose a program</option><option>Signature Reset · 7 days</option><option>Executive Pause · 4 days</option><option>Corporate retreat</option><option>Not sure yet</option></select>
+        <em class="err">Choose a program, or “Not sure yet”.</em></label>
+      <label class="f"><span>Preferred arrival</span><input type="date" name="arrival" required><em class="err">Add a date, even an approximate one.</em></label>
+      <label class="f"><span>Guests</span><select name="guests"><option>1</option><option>2</option></select></label>
+      <label class="f"><span>Name</span><input name="name" autocomplete="name" required><em class="err">Tell us your name.</em></label>
+      <label class="f"><span>Email</span><input type="email" name="email" autocomplete="email" required><em class="err">Enter a valid email, like name@company.com.</em></label>
+      <label class="f full"><span>Anything we should know? <i>(optional)</i></span><textarea name="msg" rows="2"></textarea></label>
+      <label class="check full"><input type="checkbox" name="ok" required><span>I agree to the <a href="privacy.html">privacy policy</a>.</span><em class="err">Please accept to continue.</em></label>
+      <button class="btn btn-light full" type="submit">Send request</button>
+    </form>
+    <div class="avail-done" hidden><h3 class="h-m">Thank you.</h3><p class="body">Your request is ready for the team. In this prototype nothing is sent; on the live site it reaches Lucía and Mateo, who reply within one working day.</p></div>
+  </div>
+</div>
+<div class="cookies pre" role="region" aria-label="Cookies">
+  <p class="small">We use essential cookies only, and analytics if you allow it. <a href="privacy.html#cookies">Read more</a></p>
+  <div><button class="link" data-c="no">Essential only</button><button class="btn btn-sm" data-c="ok">Accept</button></div>
+</div>
+<button class="chat-btn" aria-label="Open chat" aria-expanded="false" aria-controls="chat">
+  <svg viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"><path d="M8 30C6 18 14 9 25 9S42 17 41 27 31 41 21 39L9 42 12 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="25" cy="25" r="2.6" fill="currentColor"/></svg>
+</button>
+<section class="chat" id="chat" role="dialog" aria-label="Chat with Nosara" hidden>
+  <header class="chat-head">
+    <img src="logos/nosara-submark-arena.svg" alt="" width="36" height="36">
+    <div><p class="chat-title">Nosara</p><p class="chat-sub">Instant answers · the team replies live 7am–7pm CR time</p></div>
+    <button class="chat-x" aria-label="Close chat"><span></span><span></span></button>
+  </header>
+  <div class="chat-log" aria-live="polite"></div>
+  <div class="chat-quick"></div>
+  <form class="chat-form"><label class="sr" for="chat-in">Your message</label><input id="chat-in" autocomplete="off" placeholder="Ask about programs, dates, rooms…"><button class="chat-send" aria-label="Send"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button></form>
+</section>
+<script src="site.js"></script>
+<script src="book.js"></script>
+</body>
+</html>
